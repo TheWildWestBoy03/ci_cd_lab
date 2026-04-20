@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/thewildwestboy03/ci_cd_lab@sha256:sha256:f47fecc25876b270101d5e9c53bdcfeff137615ed712fbc8795dc6933625d606
+          image: ghcr.io/thewildwestboy03/ci_cd_lab@sha256:f47fecc25876b270101d5e9c53bdcfeff137615ed712fbc8795dc6933625d606
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
